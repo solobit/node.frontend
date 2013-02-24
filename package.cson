@@ -5,6 +5,10 @@
 
   dependencies:
     flatiron: "0.3.x"
+    winston: "0.6.x"
+    "require-analyzer": "0.5.x"
+    colors: "*"
+    ##cubby: "*"??
     storr: "0.0.x"
     "node-uuid": "1.4.x"
     resourceful: "0.3.x"

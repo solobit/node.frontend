@@ -46,7 +46,7 @@ app.use flatiron.plugins.cli,
       description: 'All. Show everything we know. Applies to info objects.'
       boolean: true
 
-solobit = require '../lib/resources/solobit'
+solobit = require '../lib/resources/solobit.coffee'
 
 app.use flatiron.plugins.resourceful
 
