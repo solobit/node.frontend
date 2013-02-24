@@ -1,0 +1,22 @@
+{
+  name: "abcme"
+
+  version: "0.0.1"
+
+  dependencies:
+    flatiron: "0.3.x"
+    storr: "0.0.x"
+    "node-uuid": "1.4.x"
+    resourceful: "0.3.x"
+    natural: "0.1.x"
+    levelup: "0.5.x"
+    ecstatic: "0.4.x"
+    commandful: "git://github.com/flatiron/commandful.git"
+    #formful: "0.1.x"
+    #creamer: "*"
+
+  peerDependencies:
+    union: "0.3.x"
+    director: "1.1.x"
+    "flatiron-cli-config": "0.1.x"
+}

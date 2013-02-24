@@ -6,7 +6,7 @@
 #
 
 # Application.
-app = module.exports = require("./app")
+app = module.exports = require "./app"
 
 # Commands.
 commands = require "./commands"
@@ -37,3 +37,5 @@ app.cmd /export (.+)/, commands.export
 
 # Create a new todo item.
 app.cmd /(.+)/, commands.add
+
+app.cmd /todo (.+)/, commands.todo
